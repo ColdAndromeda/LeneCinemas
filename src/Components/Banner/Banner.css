@@ -1,0 +1,13 @@
+.embla__container {
+    display: flex;
+    flex-direction: row;
+    width: 100svw;
+}
+
+.embla {
+    display: block;
+    width: 100%;
+}
+
+img {
+}

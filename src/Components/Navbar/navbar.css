@@ -1,0 +1,62 @@
+nav {
+    display: flex;
+    margin: 0 auto;
+    position: block;
+    top: 0;
+    width: 100svw;
+    justify-content: center;
+    padding: 0 1em;
+    align-items: baseline;
+    align-content: center;
+    background-color: black;
+    /* border: 3px solid green; */
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 1em;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid yellow; */
+}
+
+img {
+    width: 5em;
+}
+
+li {
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+}
+
+.Name {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: "Cairo", sans-serif;
+    /* border: 3px solid blue; */
+}
+
+.Name li {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Cairo", sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+    width: 15em;
+}
